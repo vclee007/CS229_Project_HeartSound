@@ -20,6 +20,10 @@ To run full flow, first download all the datasets mentioned above and follow the
 This step will loop for validation, train-a, -b, -c, -d, -e, -f folders in ../ directory and save all extracted features from train directories into features_train.csv, labels for training examples are saved in classes_train.csv. It will save all extracted features from validation examples into features_val.csv, labels for validation examples are saved in classes_val.csv.
 2. To run classification on extracted features follow classification steps.
 
+Principal component analysis (PCA) can be run to reduce dimensionality of features. To run classification modes on transformed data:
+1. Run pca.m. This will save features_train_pca.csv and features_val_pca.csv
+2. All the classification models neet to set pca flag to 1 (or True). 
+
 The following are files provided by Physionet:
 
     butterworth_high_pass_filter.m
