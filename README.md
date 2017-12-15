@@ -3,6 +3,10 @@ Application of Machine Learning Techniques for Heart Sound Recording Classificat
 
 Dataset and LR-HSMM starter code were provided by Physionet: https://www.physionet.org/challenge/2016/
 
+The dataset is not included in this repo.  Please download them separately from https://www.physionet.org/physiobank/database/challenge/2016/ 
+
+Also, example_data.mat training data for LR-HSMM can be downloaded from https://www.physionet.org/physiotools/hss/
+
 The following are files provided by Physionet:
 
     butterworth_high_pass_filter.m
