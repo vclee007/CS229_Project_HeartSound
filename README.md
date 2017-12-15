@@ -66,7 +66,7 @@ The following are files created by us:
     weighted_LR.m
     
     (K-means)
-    k_means_compress.m
+    k_means.m
 
     (Gaussian kernel SVM)
     svm_train.m
