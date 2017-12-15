@@ -5,7 +5,7 @@ Dataset and LR-HSMM starter code were provided by Physionet: https://www.physion
 
 The following are files provided by Physionet:
 
-    butterworth_high_pass_filter
+    butterworth_high_pass_filter.m
     butterworth_low_pass_filter.m
     default_Springer_HSMM_options.m
     expand_qt.m
