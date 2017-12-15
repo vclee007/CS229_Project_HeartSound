@@ -7,6 +7,19 @@ The dataset is not included in this repo.  Please download them separately from 
 
 Also, example_data.mat training data for LR-HSMM can be downloaded from https://www.physionet.org/physiotools/hss/
 
+To run only classification on supplied features follow these steps:
+1. For logistic regression run: lr_model.m
+2. For weighted logistic regression run: weighted_LR.m
+3. For K-means clustering classification run: k_means.m
+4. For SVM classification run: svm_train.m
+5. For 3-layer neural network run: main.m
+6. For 4-layer neural network run: main2.m
+
+To run full flow, first download all the datasets mentioned above and follow these steps:
+1. To segment data and extract features from all training datatsets run: run_LR_HSMM.m
+This step will loop for validation, train-a, -b, -c, -d, -e, -f folders in ../ directory and save all extracted features from train directories into features_train.csv, labels for training examples are saved in classes_train.csv. It will save all extracted features from validation examples into features_val.csv, labels for validation examples are saved in classes_val.csv.
+2. To run classification on extracted features follow classification steps.
+
 The following are files provided by Physionet:
 
     butterworth_high_pass_filter.m
@@ -45,8 +58,7 @@ The following are files created by us:
     forward_prop.m
     main.m
     main2.m
-    main3.m
-    
+        
     (Logistic Regression)
     lr_model.m
     
